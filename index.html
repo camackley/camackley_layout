@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/x.icon" href="icons/logo.ico">
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&display=swap" rel="stylesheet">
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./styles.css">
+    <!-- TITLE -->
+    <title>CaMackley</title>
+
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu"><img src="icons\menu.png" alt="Menu"></label>
+        <div class="nav-menu__logo"><img src="icons/logo.png" alt="CaMackley"></div>
+        <div class="nav-menu__title">
+            <h2>CaMackley</h2>
+            <h4>Thoughts of a developer</h4>
+        </div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#blog" class="nav-a">Blog</a></li>
+                <li><a href="#about" class="nav-a">About</a></li>
+                <li><a href="#skills" class="nav-a ">Skills</a></li>
+                <li><a href="https://github.com/camackley" class="nav-a " target="_blank">Git</a></li>
+                <li><a href="#" class="nav-a ">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- SLIDER -->
+    <div class="div-slider">
+        <ul>
+            <li>
+                <div class="div-slider__item">
+                    <img id="0" src="https://i.picsum.photos/id/160/1000/350.jpg " alt=" ">
+                    <div class="div-slider__item__text">
+                        <h2>Titulo banner</h2>
+                        <h3>28/02/2020</h3>
+                        <input type="button" value="Read it now" id="btn-slider:0">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="div-slider__item">
+                    <img id="1" src="https://i.picsum.photos/id/151/1000/350.jpg " alt=" ">
+                    <div class="div-slider__item__text">
+                        <h2>Titulo banner</h2>
+                        <h3>28/02/2020</h3>
+                        <input type="button" value="Read it now" id="btn-slider:1">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="div-slider__item">
+                    <img id="2" src="https://i.picsum.photos/id/152/1000/350.jpg " alt=" ">
+                    <div class="div-slider__item__text">
+                        <h2>Titulo banner</h2>
+                        <h3>28/02/2020</h3>
+                        <input type="button" value="Read it now" id="btn-slider:2">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="div-slider__item">
+                    <img id="3" src="https://i.picsum.photos/id/153/1000/350.jpg " alt=" ">
+                    <div class="div-slider__item__text">
+                        <h2>Titulo banner</h2>
+                        <h3>28/02/2020</h3>
+                        <input type="button" value="Read it now" id="btn-slider:3">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="div-slider__item">
+                    <img id="4" src="https://i.picsum.photos/id/154/1000/350.jpg " alt=" ">
+                    <div class="div-slider__item__text">
+                        <h2>Titulo banner</h2>
+                        <h3>28/02/2020</h3>
+                        <input type="button" value="Read it now" id="btn-slider:4">
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!-- BLOG-->
+    <section id="blog">
+        <h2 class="general__title" id="blog">Blog</h2>
+        <nav class="blog__search">
+            <input type="button " value="" id="btn-search" />
+            <label for="btn-search "><img src="icons/search.png " alt="Search "></label>
+            <input type="text " name="Search " id="txt-search " placeholder="Buscar... " />
+        </nav>
+        <h3 class="categories__title "> News</h3>
+
+        <section class="blog__section ">
+            <div class="carousel__container ">
+
+                <div class="blog-item ">
+                    <img class="blog-item__img " src="https://images.pexels.com/photos/789822/pexels-photo-789822.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260 " alt=" " />
+                    <div class="blog-item__details ">
+                        <p class="blog-item__details--title ">Título descriptivo</p>
+                        <p class="blog-item__details--subtitle ">2019 16+ 114 minutos</p>
+                        <input class="blog-item__details--button " type="button " value=" " id="1 ">
+                        <label class="blog-item__details--label " for=" 1 "><img class="blog-item__details--img " src="icons/star.png " alt="Plus Icon "></label>
+                    </div>
+                </div>
+
+                <div class="blog-item ">
+                    <img class="blog-item__img " src="https://images.pexels.com/photos/1427741/pexels-photo-1427741.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260 " alt=" " />
+                    <div class="blog-item__details ">
+                        <p class="blog-item__details--title ">Título descriptivo</p>
+                        <p class="blog-item__details--subtitle ">2019 16+ 114 minutos</p>
+                        <input class="blog-item__details--button " type="button " value=" " id="1 ">
+                        <label class="blog-item__details--label " for=" 1 "><img class="blog-item__details--img " src="icons/color-star.png " alt="Plus Icon "></label>
+                    </div>
+                </div>
+
+                <div class="blog-item ">
+                    <img class="blog-item__img " src="https://images.pexels.com/photos/705792/pexels-photo-705792.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500 " alt=" " />
+                    <div class="blog-item__details ">
+                        <p class="blog-item__details--title ">Título descriptivo</p>
+                        <p class="blog-item__details--subtitle ">2019 16+ 114 minutos</p>
+                        <input class="blog-item__details--button " type="button " value=" " id="1 ">
+                        <label class="blog-item__details--label " for=" 1 "><img class="blog-item__details--img " src="icons/star.png " alt="Plus Icon "></label>
+                    </div>
+                </div>
+
+                <div class="blog-item ">
+                    <img class="blog-item__img " src="https://images.pexels.com/photos/904276/pexels-photo-904276.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500 " alt=" " />
+                    <div class="blog-item__details ">
+                        <p class="blog-item__details--title ">Título descriptivo</p>
+                        <p class="blog-item__details--subtitle ">2019 16+ 114 minutos</p>
+                        <input class="blog-item__details--button " type="button " value=" " id="1 ">
+                        <label class="blog-item__details--label " for=" 1 "><img class="blog-item__details--img " src="icons/star.png " alt="Plus Icon "></label>
+                    </div>
+                </div>
+
+                <div class="blog-item ">
+                    <img class="blog-item__img " src="https://images.pexels.com/photos/1172207/pexels-photo-1172207.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&w=500 " alt=" " />
+                    <div class="blog-item__details ">
+                        <p class="blog-item__details--title ">Título descriptivo</p>
+                        <p class="blog-item__details--subtitle ">2019 16+ 114 minutos</p>
+                        <input class="blog-item__details--button " type="button " value=" " id="1 ">
+                        <label class="blog-item__details--label " for=" 1 "><img class="blog-item__details--img " src="icons/star.png " alt="Plus Icon "></label>
+                    </div>
+                </div>
+
+                <div class="blog-item ">
+                    <img class="blog-item__img " src="https://images.pexels.com/photos/233129/pexels-photo-233129.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500 " alt=" " />
+                    <div class="blog-item__details ">
+                        <p class="blog-item__details--title ">Título descriptivo</p>
+                        <p class="blog-item__details--subtitle ">2019 16+ 114 minutos</p>
+                        <input class="blog-item__details--button " type="button " value=" " id="1 ">
+                        <label class="blog-item__details--label " for=" 1 "><img class="blog-item__details--img " src="icons/star.png " alt="Plus Icon "></label>
+                    </div>
+                </div>
+
+                <div class="blog-item ">
+                    <img class="blog-item__img " src="https://images.pexels.com/photos/1666779/pexels-photo-1666779.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260 " alt=" " />
+                    <div class="blog-item__details ">
+                        <p class="blog-item__details--title ">Título descriptivo</p>
+                        <p class="blog-item__details--subtitle ">2019 16+ 114 minutos</p>
+                        <input class="blog-item__details--button " type="button " value=" " id="1 ">
+                        <label class="blog-item__details--label " for=" 1 "><img class="blog-item__details--img " src="icons/star.png " alt="Plus Icon "></label>
+                    </div>
+                </div>
+
+                <div class="blog-item ">
+                    <img class="blog-item__img " src="https://images.pexels.com/photos/413879/pexels-photo-413879.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260 " alt=" " />
+                    <div class="blog-item__details ">
+                        <p class="blog-item__details--title ">Título descriptivo</p>
+                        <p class="blog-item__details--subtitle ">2019 16+ 114 minutos</p>
+                        <input class="blog-item__details--button " type="button " value=" " id="1 ">
+                        <label class="blog-item__details--label " for=" 1 "><img class="blog-item__details--img " src="icons/star.png " alt="Plus Icon "></label>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <h3 class="categories__title "> More rated</h3>
+
+        <section class="blog__section ">
+            <div class="carousel__container ">
+
+                <div class="blog-item ">
+                    <img class="blog-item__img " src="https://images.pexels.com/photos/789822/pexels-photo-789822.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260 " alt=" " />
+                    <div class="blog-item__details ">
+                        <p class="blog-item__details--title ">Título descriptivo</p>
+                        <p class="blog-item__details--subtitle ">2019 16+ 114 minutos</p>
+                        <input class="blog-item__details--button " type="button " value=" " id="1 ">
+                        <label class="blog-item__details--label " for=" 1 "><img class="blog-item__details--img "
+                                src="icons/star.png " alt="Plus Icon "></label>
+                    </div>
+                </div>
+
+                <div class="blog-item ">
+                    <img class="blog-item__img " src="https://images.pexels.com/photos/1427741/pexels-photo-1427741.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260 " alt=" " />
+                    <div class="blog-item__details ">
+                        <p class="blog-item__details--title ">Título descriptivo</p>
+                        <p class="blog-item__details--subtitle ">2019 16+ 114 minutos</p>
+                        <input class="blog-item__details--button " type="button " value=" " id="1 ">
+                        <label class="blog-item__details--label " for=" 1 "><img class="blog-item__details--img "
+                                src="icons/color-star.png " alt="Plus Icon "></label>
+                    </div>
+                </div>
+
+                <div class="blog-item ">
+                    <img class="blog-item__img " src="https://images.pexels.com/photos/705792/pexels-photo-705792.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500 " alt=" " />
+                    <div class="blog-item__details ">
+                        <p class="blog-item__details--title ">Título descriptivo</p>
+                        <p class="blog-item__details--subtitle ">2019 16+ 114 minutos</p>
+                        <input class="blog-item__details--button " type="button " value=" " id="1 ">
+                        <label class="blog-item__details--label " for=" 1 "><img class="blog-item__details--img "
+                                src="icons/star.png " alt="Plus Icon "></label>
+                    </div>
+                </div>
+
+                <div class="blog-item ">
+                    <img class="blog-item__img " src="https://images.pexels.com/photos/904276/pexels-photo-904276.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500 " alt=" " />
+                    <div class="blog-item__details ">
+                        <p class="blog-item__details--title ">Título descriptivo</p>
+                        <p class="blog-item__details--subtitle ">2019 16+ 114 minutos</p>
+                        <input class="blog-item__details--button " type="button " value=" " id="1 ">
+                        <label class="blog-item__details--label " for=" 1 "><img class="blog-item__details--img "
+                                src="icons/star.png " alt="Plus Icon "></label>
+                    </div>
+                </div>
+
+                <div class="blog-item ">
+                    <img class="blog-item__img " src="https://images.pexels.com/photos/1172207/pexels-photo-1172207.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&w=500 " alt=" " />
+                    <div class="blog-item__details ">
+                        <p class="blog-item__details--title ">Título descriptivo</p>
+                        <p class="blog-item__details--subtitle ">2019 16+ 114 minutos</p>
+                        <input class="blog-item__details--button " type="button " value=" " id="1 ">
+                        <label class="blog-item__details--label " for=" 1 "><img class="blog-item__details--img "
+                                src="icons/star.png " alt="Plus Icon "></label>
+                    </div>
+                </div>
+
+                <div class="blog-item ">
+                    <img class="blog-item__img " src="https://images.pexels.com/photos/233129/pexels-photo-233129.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500 " alt=" " />
+                    <div class="blog-item__details ">
+                        <p class="blog-item__details--title ">Título descriptivo</p>
+                        <p class="blog-item__details--subtitle ">2019 16+ 114 minutos</p>
+                        <input class="blog-item__details--button " type="button " value=" " id="1 ">
+                        <label class="blog-item__details--label " for=" 1 "><img class="blog-item__details--img "
+                                src="icons/star.png " alt="Plus Icon "></label>
+                    </div>
+                </div>
+
+                <div class="blog-item ">
+                    <img class="blog-item__img " src="https://images.pexels.com/photos/1666779/pexels-photo-1666779.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260 " alt=" " />
+                    <div class="blog-item__details ">
+                        <p class="blog-item__details--title ">Título descriptivo</p>
+                        <p class="blog-item__details--subtitle ">2019 16+ 114 minutos</p>
+                        <input class="blog-item__details--button " type="button " value=" " id="1 ">
+                        <label class="blog-item__details--label " for=" 1 "><img class="blog-item__details--img "
+                                src="icons/star.png " alt="Plus Icon "></label>
+                    </div>
+                </div>
+
+                <div class="blog-item ">
+                    <img class="blog-item__img " src="https://images.pexels.com/photos/413879/pexels-photo-413879.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260 " alt=" " />
+                    <div class="blog-item__details ">
+                        <p class="blog-item__details--title ">Título descriptivo</p>
+                        <p class="blog-item__details--subtitle ">2019 16+ 114 minutos</p>
+                        <input class="blog-item__details--button " type="button " value=" " id="1 ">
+                        <label class="blog-item__details--label " for=" 1 "><img class="blog-item__details--img "
+                                src="icons/star.png " alt="Plus Icon "></label>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    </section>
+    <!--ABOUT-->
+    <section id="about" class="about">
+        <h2 class="general__title " id="about ">About</h2>
+        <div class="about__div">
+            <div id="img_imagen_responsive_min"><img src="https://i.picsum.photos/id/101/150/150.jpg" alt="I"></div>
+            <div id="img_imagen_responsive_max"><img src="https://i.picsum.photos/id/100/300/500.jpg" alt="I"></div>
+            <p class="abuout__div--text">Est quo at repudiandae tempora ad eum qui. Fugiat labore magnam quia quia voluptatem. Totam rerum dicta mollitia aperiam molestiae. Aliquid est veritatis dolores. Ab voluptatem dolores nobis omnis aperiam perspiciatis. Rem aut placeat sint
+                ipsum. Corporis labore est aliquid et eligendi et quaerat dolorem. Earum sit qui odio earum deleniti.
+            </p>
+        </div>
+    </section>
+    <!--SKILLS-->
+    <section id="skills" class="skills">
+        <h2 class="general__title " id="skills ">Skills</h2>
+        <div class="skills-item ">
+            <img class="skills-item__img " src="https://images.pexels.com/photos/789822/pexels-photo-789822.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260 " alt=" " />
+            <div class="skills-item__details ">
+                <p class="skills-item__details--title ">Nombre de la Skill</p>
+                <p class="skills-item__details--subtitle ">Practica</p>
+                <input class="skills-item__details--button " type="button " value=" " id="1 ">
+                <label class="skills-item__details--label " for=" 1 "><img class="skills-item__details--img " src="icons/git.png "
+                        alt="Plus Icon "></label>
+            </div>
+        </div>
+        <div class="skills-item ">
+            <img class="skills-item__img " src="https://images.pexels.com/photos/789822/pexels-photo-789822.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260 " alt=" " />
+            <div class="skills-item__details ">
+                <p class="skills-item__details--title ">Nombre de la Skill</p>
+                <p class="skills-item__details--subtitle ">Practica</p>
+                <input class="skills-item__details--button " type="button " value=" " id="1 ">
+                <label class="skills-item__details--label " for=" 1 "><img class="skills-item__details--img "
+                        src="icons/git.png " alt="Plus Icon "></label>
+            </div>
+        </div>
+        <div class="skills-item ">
+            <img class="skills-item__img " src="https://images.pexels.com/photos/789822/pexels-photo-789822.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260 " alt=" " />
+            <div class="skills-item__details ">
+                <p class="skills-item__details--title ">Nombre de la Skill</p>
+                <p class="skills-item__details--subtitle ">Practica</p>
+                <input class="skills-item__details--button " type="button " value=" " id="1 ">
+                <label class="skills-item__details--label " for=" 1 "><img class="skills-item__details--img "
+                        src="icons/git.png " alt="Plus Icon "></label>
+            </div>
+        </div>
+        <div class="skills-item ">
+            <img class="skills-item__img " src="https://images.pexels.com/photos/789822/pexels-photo-789822.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260 " alt=" " />
+            <div class="skills-item__details ">
+                <p class="skills-item__details--title ">Nombre de la Skill</p>
+                <p class="skills-item__details--subtitle ">Practica</p>
+                <input class="skills-item__details--button " type="button " value=" " id="1 ">
+                <label class="skills-item__details--label " for=" 1 "><img class="skills-item__details--img "
+                        src="icons/git.png " alt="Plus Icon "></label>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
