@@ -183,10 +183,6 @@
             margin: 10px 15px 10px 5px;
         }
         
-        .general__button {
-            color: black;
-        }
-        
         .blog__search input {
             float: right;
             background-color: rgba(255, 255, 255, 0.1);
@@ -329,18 +325,9 @@
         }
         /*ABOUT*/
         
-        #img_imagen_responsive_min {
-            display: none;
-        }
-        
-        .about {
-            width: 100%;
-        }
-        
         .about__div {
             margin: auto;
             width: 95%;
-            height: 600px;
             border-radius: 30px;
             background-color: #004a55;
             padding: 50px 50px 50px 50px;
@@ -348,19 +335,18 @@
         
         .abuout__div--text {
             margin: auto;
-            float: right;
             width: 60%;
             font-size: 1.5vw;
-            height: 450px;
         }
         
         .about__div div {
             margin-top: auto;
+            text-align: center;
         }
         
         .about__div div img {
-            float: left;
-            border-radius: 30px;
+            margin: auto;
+            border-radius: 100px;
         }
         /*SKILLS*/
         
@@ -378,15 +364,9 @@
             height: 200px;
             margin-right: 10px;
             font-size: 20px;
-            cursor: pointer;
             transition: 450ms all;
             -webkit-transform-origin: center left;
             transform-origin: center left;
-        }
-        
-        .skills-item:hover~.blog-item {
-            -webkit-transform: translate3d(100px, 0, 0);
-            transform: translate3d(100px, 0, 0);
         }
         
         .skills-item__img {
@@ -422,18 +402,104 @@
             margin: 5px 0px 0px 0px;
         }
         
-        .skills-item__details--subtitle {
-            color: white;
-            font-size: 8px;
-            margin: 3px 0px;
-        }
-        
         .skills-item__details--button {
             display: none;
         }
         
         .skills-item__details--label {
             cursor: pointer;
+        }
+        /* CONTACT */
+        
+        .div-contact {
+            width: 95%;
+            margin: 0px auto 2% auto;
+            padding: 5px;
+            background-color: #004a55;
+            border-radius: 30px;
+        }
+        
+        .div-contact__form {
+            margin: auto;
+            text-align: center;
+            margin: 2% 0%;
+        }
+        
+        .div-contact form ul li {
+            overflow: hidden;
+        }
+        
+        .div-contact form ul li textarea {
+            width: 40%;
+            height: 150px;
+            /* background-color: rgba(255, 255, 255, 0.1); */
+            border: 2px solid white;
+            border-radius: 25px;
+            color: #004a55;
+            font-family: 'Baloo Thambi 2', cursive;
+            font-size: 1.5vw;
+            margin: 1% 0px 0px 5px;
+            outline: none;
+            padding: 3px 20px;
+        }
+        
+        .div-contact form ul li input {
+            width: 40%;
+            /* background-color: rgba(255, 255, 255, 0.1); */
+            border: 2px solid white;
+            border-radius: 25px;
+            color: #004a55;
+            font-family: 'Baloo Thambi 2', cursive;
+            font-size: 1.5vw;
+            margin: 1% 0px 0px 5px;
+            outline: none;
+            padding: 3px 20px;
+            height: 30px;
+        }
+        
+        .div-contact form ul li label {
+            padding: 0;
+            margin: 0;
+            border: 0;
+            width: 30px;
+            height: 30px;
+        }
+        
+        .contact-form__label--img {
+            width: 30px;
+        }
+        
+        .div-contact form ul li button {
+            border: none;
+            border-radius: 30px;
+            background-color: #a7cdcc;
+            color: #f6f6f6;
+            font-size: 1.5vw;
+            padding: 1%;
+            border: 1px solid #a7cdcc;
+        }
+        
+        .div-contact form ul li button:hover {
+            cursor: pointer;
+            background-color: #004a55;
+            border-color: #f6f6f6;
+            border: 1px solid;
+        }
+        /* FOOTER */
+        
+        .footer {
+            width: 100%;
+            padding: 1% 2.5% 0% 2.5%;
+            background-color: #a7cdcc;
+        }
+        
+        .footer-item__img {
+            width: 32px;
+            margin: 0px 5px 0px 5px;
+        }
+        
+        .footer a h3 {
+            margin: 0;
         }
         
         @media (max-width: 768px) {
@@ -482,7 +548,6 @@
             #btn-menu:checked~.nav-menu {
                 margin-left: 0%;
             }
-            /* HEADER */
             /* BLOG */
             .blog-item:hover~.blog-item {
                 -webkit-transform: none;
@@ -500,22 +565,11 @@
                 font-size: 4vw;
             }
             /*ABOUT*/
-            #img_imagen_responsive_min {
-                display: flex;
-            }
-            #img_imagen_responsive_max {
-                display: none;
-            }
-            .about__div {
-                height: 820px;
-            }
             .abuout__div--text {
                 margin: auto;
                 width: 100%;
                 font-size: 3.5vw;
-                height: 400px;
                 text-align: justify;
-                background-color: #004a55;
             }
             .about__div div {
                 margin: auto;
@@ -538,6 +592,30 @@
             }
             .skills-item__details--subtitle {
                 display: none;
+            }
+            /*CONTACT*/
+            .div-contact form ul li textarea {
+                font-size: 2vw;
+                height: 100px;
+            }
+            .div-contact form ul li input {
+                font-size: 2vw;
+            }
+            .div-contact form ul li label {
+                width: 0px;
+                height: 0px;
+            }
+            .contact-form__label--img {
+                width: 25px;
+            }
+            .div-contact form ul li button {
+                font-size: 2vw;
+            }
+        }
+        
+        @media (max-width: 380px) {
+            .nav-menu__title {
+                margin-right: 10%;
             }
         }
         
